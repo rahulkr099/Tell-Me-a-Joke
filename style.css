@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(robot.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+button{
+    font-size: 2rem;
+    background-color: rgb(244, 60, 91);
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    padding: 7px;
+    box-shadow: 3px 3px 3px 1px grey;
+}
+button:hover{
+    color: white;
+    box-shadow: none;
+}
