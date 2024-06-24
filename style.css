@@ -13,7 +13,8 @@
     align-items: center;
     background-position: left center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    object-fit: cover;
 }
 button{
     font-size: 2rem;
@@ -22,9 +23,11 @@ button{
     border-radius: 7px;
     border: none;
     padding: 7px;
-    box-shadow: 3px 3px 3px 1px grey;
+    backdrop-filter: blur(4px);
+    
 }
 button:hover{
     color: white;
-    box-shadow: none;
+    backdrop-filter: blur(0px);
+    box-shadow: 1px 1px 9px 7px grey;
 }
