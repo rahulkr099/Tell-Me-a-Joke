@@ -31,6 +31,7 @@ button{
 .joke-box{
     width: 45vw;
     height: 12vh;
+    color:white;
     /* border: 1px solid black; */
     border-radius: 8px;
     /* box-shadow: 1px 2px 7px 8px rgba(0,0,0,0.4); */
@@ -86,6 +87,7 @@ button:hover{
         height: 22vh;
         /* border: 1px solid black; */
         border-radius: 8px;
+        color:white;
         /* box-shadow: 1px 2px 7px 8px rgba(0,0,0,0.4); */
         background-color: rgba(0,0,0,0.3);
         backdrop-filter: blur(3px);
