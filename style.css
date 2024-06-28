@@ -26,8 +26,73 @@ button{
     backdrop-filter: blur(4px);
     
 }
+.joke-box{
+    width: 45vw;
+    height: 12vh;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    /* box-shadow: 1px 2px 7px 8px rgba(0,0,0,0.4); */
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(3px);
+    position: relative;
+    top:14rem;
+    right: 5rem;
+    overflow:auto;
+        scroll-behavior: smooth;
+        scrollbar-width: 0;
+        outline: hidden;
+}
+.joke-box>p{
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 1rem;
+}
 button:hover{
     color: white;
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(4px);
     box-shadow: 1px 1px 9px 7px grey;
+}
+@media (max-width:768px){
+    .container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    background-image: url(robot.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    }
+    button{
+        font-size: 1.5rem;
+        background-color: rgb(244, 60, 91);
+        outline: none;
+        border-radius: 7px;
+        border: none;
+        padding: 2px;
+        backdrop-filter: blur(4px);
+        position: relative;
+        top: -174px;
+        left: 3rem;
+    }
+    .joke-box{
+        width: 45vw;
+        height: 22vh;
+        /* border: 1px solid black; */
+        border-radius: 8px;
+        /* box-shadow: 1px 2px 7px 8px rgba(0,0,0,0.4); */
+        background-color: rgba(0,0,0,0.3);
+        backdrop-filter: blur(3px);
+        position: relative;
+        top:15rem;
+        right: 5rem;
+        overflow:auto;
+        scroll-behavior: smooth;
+        scrollbar-width: 0;
+        outline: hidden;
+    }
 }
